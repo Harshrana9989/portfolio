@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harsh Rana | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: linear-gradient(135deg, #e0f7fa, #ffffff);
+      color: #333;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    header img {
+      width: 130px;
+      height: 130px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #00796b;
+      margin-bottom: 1rem;
+      transition: transform 0.3s ease;
+    }
+    header img:hover {
+      transform: scale(1.05);
+    }
+    header h1 {
+      font-size: 2.8rem;
+      color: #00796b;
+      margin-bottom: 0.3rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+    .contact {
+      margin-top: 0.8rem;
+      font-size: 0.95rem;
+      color: #444;
+    }
+    section {
+      margin-bottom: 2.5rem;
+      padding: 1.8rem;
+      border-radius: 12px;
+      background: #ffffff;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    }
+    section h2 {
+      color: #004d40;
+      margin-bottom: 1rem;
+      font-size: 1.6rem;
+      border-bottom: 2px solid #00796b;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style: disc;
+      padding-left: 1.5rem;
+    }
+    .project {
+      margin-bottom: 1.7rem;
+    }
+    .project h3 {
+      color: #00695c;
+      margin-bottom: 0.3rem;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 0.7rem;
+    }
+    .skills-grid span {
+      background-color: #e0f2f1;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-weight: 500;
+    }
+    a {
+      color: #00695c;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.85rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="myphoto.jpg" alt="Harsh Rana Photo">
+    <h1>Harsh Rana</h1>
+    <p>Software Engineer | Data Enthusiast | Azure Certified</p>
+    <div class="contact">
+      Bahadrabad, Uttarakhand | harshrana976017@gmail.com | 9027844340 <br />
+      <a href="https://linkedin.com/in/harsh-rana-3326b3245/" target="_blank">LinkedIn Profile</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Profile</h2>
+    <p>I am a detail-oriented and passionate Software Engineer with a strong foundation in Data Structures and Algorithms, and expertise in data-driven development. I enjoy building scalable, high-performance systems and automating workflows. Skilled in Python and C++ with real-world development and debugging experience.</p>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li>B.Tech in Computer Science, Graphic Era Hill University (2022–2026), CGPA: 8.15</li>
+      <li>Class XII - 90.1%, Angles Academy, Haridwar (2021)</li>
+      <li>Class X - 91.8%, Angles Academy, Haridwar (2019)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <span>C++, C, Python</span>
+      <span>HTML, CSS, JavaScript</span>
+      <span>MySQL, Oracle</span>
+      <span>Git, GitHub, Jenkins</span>
+      <span>Microsoft Azure</span>
+      <span>Linux (Basic)</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Credit Card Fraud Detection</h3>
+      <p><strong>Tools:</strong> Python, Scikit-learn, Pandas, NumPy</p>
+      <p>Developed a real-time fraud detection system using unsupervised learning to identify anomalous transactions with high accuracy.</p>
+    </div>
+    <div class="project">
+      <h3>Text Automation Application</h3>
+      <p><strong>Tools:</strong> Python, NLTK, Transformers, tkinter</p>
+      <p>Created a multilingual translator and extractive text summarizer to automate various text-processing tasks efficiently.</p>
+    </div>
+    <div class="project">
+      <h3>Air Quality Prediction</h3>
+      <p><strong>Tools:</strong> Python, Facebook Prophet, Pandas, Matplotlib</p>
+      <p>Built a time series model to predict AQI trends by modeling seasonal patterns and sudden pollution changes.</p>
+    </div>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p><strong>Tools:</strong> HTML, CSS, JavaScript, Git, GitHub, Azure Web Apps</p>
+      <p>Designed and developed a portfolio website to showcase my resume and highlight my technical skills.</p>
+      <p>Utilized Git and GitHub for version control, created a repository, and managed all commits and code pushes.</p>
+      <p>Deployed the website using Microsoft Azure Web Apps, making it accessible to anyone via the internet.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <ul>
+      <li>Microsoft Azure AZ-900 Certification</li>
+      <li>Generative AI Fundamentals – LinkedIn Learning</li>
+      <li>AWS Cloud Practitioner Essentials</li>
+      <li>AWS Cloud Quest Certification</li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; 2025 Harsh Rana. All rights reserved.
+  </footer>
+</body>
+</html>
